@@ -13,7 +13,7 @@ const Form = (props) => {
 
     const info = () => {
         return (
-            console.log("info ref", textRef.current.value)
+            console.log("Referencias de input: ", textRef.current.value)
         )
     }
 
@@ -31,8 +31,7 @@ const Form = (props) => {
                 ref={textRef}
                 placeholder="REFF"
             />
-            <Button type="submit" >Ingresar referencias</Button>
-
+            <Button type="submit" >Ingresar referencias</Button>¿
         </form>
     )
 }
