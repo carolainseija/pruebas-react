@@ -6,7 +6,7 @@ const Form = (props) => {
 
     //como funcion-componente
     const Title = () => <h1>{props.text2}</h1>
-    //como contante
+    //como contante se mmuestra de una manera distinta.
     const Parrafo = <p>{props.par}</p>
 
     return (
@@ -16,8 +16,7 @@ const Form = (props) => {
             <Title />
             {/*muestro la constante de esta manera */}
             {Parrafo}
-            <input id='input-text' name='input1' type="text" placeholder="textos." />
-            <input />
+            <Input />
             {props.children}
         </form>
     )
